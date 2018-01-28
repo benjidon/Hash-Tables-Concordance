@@ -170,23 +170,6 @@ class HashTableQuadPr:
 		return self.capacity
 
 
-# test = HashTableQuadPr(251)
-# test.read_stop('stop_words.txt')
-# #print(test.hash_table)
-# #print(test.capacity)
-# test2 = HashTableQuadPr(251)
-# test2.read_file('input2.txt',test.hash_table)
-# #print test2.hash_table
-# #print test2.capacity
-# #print test.is_number('ss')
-# test2.save_concordance('tester.txt')
-
-
-
-
-
-
-
 
 
 
