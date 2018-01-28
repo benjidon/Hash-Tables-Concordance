@@ -161,17 +161,6 @@ class HashTableLinPr:
 		return self.capacity
 
 
-test = HashTableLinPr(251)
-test.read_stop('stop_words.txt')
-print test.hash_table
-print(test.hash_table)
-print(test.capacity)
-test2 = HashTableLinPr(251)
-test2.read_file('test1.txt',test)
-print test2.hash_table
-print test2.capacity
-print test.is_number('ss')
-test2.save_concordance('tester.txt')
 
 
 
